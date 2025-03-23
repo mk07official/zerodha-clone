@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.press-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.press-logo {
+  width: 70%; /* Adjust width */
+  max-width: 800px; /* Prevents it from being too large */
+}
