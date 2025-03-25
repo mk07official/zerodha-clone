@@ -29,7 +29,7 @@ import React from 'react';
                 </div>               
                 </div>
                 <div className='press-logo-container'>
-                    <img className='mt-5 p-4' style={{width:'70%'}} src='media/images/presslogos.png' alt='presslogo'/>
+                    <img className='mt-5 p-4' style={{width:'60%'}} src='media/images/presslogos.png' alt='presslogo'/>
                 </div>
             </div>
         </div>
