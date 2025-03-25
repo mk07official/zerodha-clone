@@ -22,3 +22,7 @@ code {
   width: 70%; /* Adjust width */
   max-width: 800px; /* Prevents it from being too large */
 }
+
+.nav-item{
+  margin-right: 30px;
+}
