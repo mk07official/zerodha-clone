@@ -1,7 +1,9 @@
-import react from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="container border-top mt-5 bg-light">
+    <footer class="footer-expand-lg border-top  bg-light">
+    <div className="container  mt-5">
       <div className="row mt-5 m-0 border-dark"  style={{ paddingLeft: "50px"}}>
         <div className="col ">
           <img style={{ width: "60%", paddingBottom:'20px'}} src="media/images/logo.svg" />
@@ -11,53 +13,53 @@ function Footer() {
         <div className="col " >
           <h5>Company</h5>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>About</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>About</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Products</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Products</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Pricing</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Pricing</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Referral programme</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Referral programme</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Careers</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Careers</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Zerodha.tech</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Zerodha.tech</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Open source</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Open source</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Press & media</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Press & media</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Zerodha Cares (CSR)</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Zerodha Cares (CSR)</Link>
           <br />
         </div>
         <div className="col">
           <h5>Support</h5>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Contact us</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Contact us</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Support portal</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Support portal</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Z-Connect blog</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Z-Connect blog</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>List of charges</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>List of charges</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Downloads & resources</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Downloads & resources</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Videos</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Videos</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Market overview</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Market overview</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>How to file a complaint?</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>How to file a complaint?</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Status of your complaints</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Status of your complaints</Link>
           <br />
         </div>
         <div className="col">
           <h5>Account</h5>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Open an account</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Open an account</Link>
           <br />
-          <a href=" " class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Fund transfer</a>
+          <Link to="/" class="text-decoration-none text-muted " style={{color:'black',fontweight:'600',lineHeight:'2'}}>Fund transfer</Link>
           <br />
         </div>
       </div>
@@ -111,6 +113,7 @@ function Footer() {
       of others. If you find anyone claiming to be part of Zerodha and offering
       such services, please create a ticket here.</p></div>
     </div>
+    </footer>
   );
 }
 export default Footer;

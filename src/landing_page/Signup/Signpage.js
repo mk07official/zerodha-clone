@@ -1,13 +1,8 @@
 import React from 'react';
-import Navbar from '../Navbar';
-import Footer from '../footer';
+
 function Signup() {
     return ( 
-        <>
-        <Navbar/>
-        
-        <Footer/>
-        </>
+        <h1>signup</h1>
      );
 }
 
