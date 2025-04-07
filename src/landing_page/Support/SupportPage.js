@@ -1,9 +1,12 @@
-    import React from 'react';
+import React from 'react';
+import HeroSection from './HeroSection';
+import Raiseticket from './Raiseticket';
     function SupportPage() {
         return ( 
-            <h1>
-                SupportPage
-            </h1>
+            <>
+            <HeroSection/>
+            <Raiseticket/>
+            </>
          );
     }
     

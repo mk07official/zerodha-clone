@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from './HeroSection';
 function Pricing_Page() {
     return ( 
-        <h1>
-            Pricing Page
-        </h1>
+        <>
+        <HeroSection/>
+        </>
      );
 }
 
