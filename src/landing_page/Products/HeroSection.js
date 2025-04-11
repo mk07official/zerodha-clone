@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return ( 
-        <div className ='container p-5 mb-5'>
+        <div className ='container p-5 mb-3 border-bottom'>
             <div className ='row text-center text-muted'>
                 
                 <h1 className='mt-5 ' style={{fontSize:'45px'}}>Zerodha Products</h1>

@@ -1,9 +1,11 @@
 import React from 'react';
-import HeroSection from './HeroSection';
+import HeroSection from './HeroSection';    
+import Brokerage from './Brokerage';
 function Pricing_Page() {
     return ( 
         <>
         <HeroSection/>
+        <Brokerage/>
         </>
      );
 }

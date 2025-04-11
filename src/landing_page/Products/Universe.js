@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Universe() {
   return (
-    <div className="container text-center">
+    <div className="container text-center mt-5">
       <div className="row">
         <div className="col">
           <h1 className="text-muted">The Zerodha Universe</h1>
