@@ -18,12 +18,12 @@ import React from 'react';
                     <p className="text-muted">With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className='col-7 pl-4 '>
-                    <img style={{width:'75%',marginLeft:'60px',marginTop:'40px'}} src='media/images/image.png'/>
+                    <img style={{width:'75%',marginLeft:'60px',marginTop:'40px'}} src='media/images/image.png' alt="#"/>
                     <div className='text-center'>
-                    <a href='' style={{textDecoration:'none'}} className='px-3 fw-semibold'>
+                    <a href='#' style={{textDecoration:'none'}} className='px-3 fw-semibold'>
                     Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </a>
-                    <a href='' style={{textDecoration:'none'}} className='px-4 fw-semibold'>
+                    <a href='#' style={{textDecoration:'none'}} className='px-4 fw-semibold'>
                     Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>               
